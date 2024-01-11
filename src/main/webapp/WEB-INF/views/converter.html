@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,10 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-Hello spring!
-<a href="/title/index2">index2</a>
+<h1>CONVERTER</h1>
+<span th:text="${val1}"/> -
+<span th:text="${value}"/>
 <br>
-<p th:text="${id}"></p>
-<p th:text="${num}"></p>
+<span th:text="${val2}"/> -
+<span th:text="${val}"/>
 </body>
 </html>
